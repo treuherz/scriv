@@ -1,0 +1,15 @@
+[package]
+name = "scriv"
+version = "0.1.0"
+authors = ["Eli Treuherz <eli@treuherz.co.uk>"]
+edition = "2018"
+
+[dev-dependencies]
+assert_cmd = "0.11.0"
+predicates = "1.0"
+
+[dependencies]
+dirs = "1.0"
+failure = "0.1"
+sloggers = "0.3"
+structopt = "0.2"
